@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-width: 100% !important;
+  padding: 0 !important;
+}
+
+.navbar {
+  padding: 20px 80px;
+}
+
+.container-main {
+  padding: 60px 0;
+  background-color: black;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+.products-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(268px, 1fr));
+  gap: 40px;
+  padding: 48px 80px !important;
+}
+
+.footer-container {
+    padding: 40px 0;
+    color: #fff;
+}
